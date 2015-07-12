@@ -77,7 +77,7 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 			</item>
 			<!--<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin" /></item>-->
 		</menu>
-		<menu weight="75" text="Standby / restart" entryID="standby_restart_list">
+		<menu weight="75" text="ZebraDeam ShutDown" entryID="standby_restart_list">
 			<id val="shutdown" />
 			<item text="Sleep timer" entryID="sleep"><screen module="SleepTimerEdit" screen="SleepTimerEdit" /></item>
 			<item text="Standby" entryID="standby"><screen module="Standby" screen="Standby"/></item>
