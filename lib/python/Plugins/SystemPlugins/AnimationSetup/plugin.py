@@ -9,10 +9,10 @@ from Plugins.Plugin import PluginDescriptor
 
 from enigma import setAnimation_current, setAnimation_speed
 
-# default = slide drop
+# default = simple fade
 g_default = {
-        "current": 5,
-        "speed"  : 10,
+        "current": 1,
+        "speed"  : 20,
 }
 g_max_speed = 30
 
@@ -245,4 +245,3 @@ def Plugins(**kwargs):
 			fnc = sessionAnimationSetup),
 	]
 	return plugin_list;
-
